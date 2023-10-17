@@ -23,6 +23,11 @@
     src: url(/src/fonts/Firestarter-dr7X.ttf);
 }
 
+@font-face {
+    font-family: Mavka;
+    src: url(/src/fonts/DwarvenStonecraftCyr.otf);
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -114,8 +119,29 @@ body {
 }
 
 /* !Timer */
-.timer {
+/* .timer {
 	margin-top: 140px;
+} */
+
+.text-wrapper {
+	
+}
+
+.mavka-font {
+	font-family: Mavka;
+	font-size: 200px;
+}
+
+.text-left {
+	
+}
+
+.text-center {
+	margin-left: 400px;
+}
+
+.text-right {
+	margin-left: 700px;
 }
 
 .timer__frame {
